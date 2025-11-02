@@ -1,0 +1,37 @@
+# ChatTags Configuration File
+# Author: Johann-FullHD
+# Version: 1.1.0
+
+# Tag Settings
+tag-settings:
+  # Minimum tag length
+  min-length: 1
+  
+  # Maximum tag length
+  max-length: 5
+  
+  # Allowed characters pattern (regex)
+  # Default allows: letters, numbers, underscores, and spaces
+  allowed-pattern: "[a-zA-Z0-9_\\s]+"
+  
+  # Default tag color for new tags
+  default-color: "GRAY"
+
+  # Cooldown for changing/clearing tags (in seconds)
+  change-cooldown-seconds: 30
+
+# Feature Toggles
+features:
+  # Allow players to use color codes in their tags (requires separate permission)
+  allow-color-codes: false
+  
+  # Enable tag animations (future feature)
+  enable-animations: false
+
+# Performance Settings
+performance:
+  # Auto-save interval in minutes (0 to disable auto-save)
+  auto-save-interval: 5
+  
+  # Cache player tags in memory
+  cache-tags: true
